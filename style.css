@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Noto Serif JP", serif;
+  line-height: 1.5;
 }
 ul {
   padding-left: 0;
@@ -35,6 +36,9 @@ h3 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
+}
+span {
+  display: block;
 }
 .wrapper {
   margin: 1em auto;
@@ -258,6 +262,7 @@ form label::before {
   width: 100%;
   height: 3em;
   transition: 0.2s;
+  border-radius: 30px;
 }
 .submit:hover {
   background-color: #393e46;
@@ -266,6 +271,7 @@ form label::before {
 footer {
   text-align: center;
   background-color: #393e46;
+  padding: 1em;
 }
 footer small {
   color: #eeeeee;
@@ -280,6 +286,9 @@ footer small {
   }
   h2 {
     padding: 30px;
+  }
+  span {
+    display: inline;
   }
   .about-wrap {
     flex-direction: row;
